@@ -1,0 +1,48 @@
+/* Navbar.css */
+
+/* Reset the margin on the body element */
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #222;
+    color: #fff;
+
+  }
+  
+  .logo {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+  }
+  
+  .logo:hover {
+    opacity: 0.8;
+  }
+  
+  .login {
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    margin-right: 50px;
+  }
+  
+  .login:hover {
+    background-color: #fff;
+    color: #222;
+  }
+  

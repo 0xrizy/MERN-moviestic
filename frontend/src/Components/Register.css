@@ -1,0 +1,59 @@
+/* Register.css */
+
+/* Define a variable for the background image */
+:root {
+  --background-image-url: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmJ4zp2TFErY9a1UNrHBu-YpssfE7XBpi5D9z0Cb3I5zprOx2C-JbdDGWlq8_c4w6uvPw&usqp=CAU");
+}
+
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--background-image-url);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  margin: 0; /* Remove margin */
+  padding: 0; /* Remove padding */
+}
+
+.card {
+  background-color: #555;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 0; /* Remove margin */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
