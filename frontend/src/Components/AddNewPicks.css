@@ -1,0 +1,93 @@
+.add-new-picks-container {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 30px;
+    background-color: #e5bebe;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .btnSearch{
+  display: inline-block;
+  padding: 10px 19px;
+  background-color: #098cbc;
+  color: #ffffff;
+  margin:20px 0px 10px 850px;
+  border: none;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight:bolder;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .heading1{
+    font-size:40px;
+    font-weight: bold;
+    margin-top: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #404041;
+  }
+
+  .add-new-picks-form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .form-group {
+    display: grid;
+    gap: 5px;
+  }
+  
+  label {
+    font-size:25px;
+    font-weight: bold;
+    color: #404041;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn-submit {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-submit:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message,
+  .success-message {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .error-message {
+    background-color: #ff8080;
+    color: #ffffff;
+  }
+  
+  .success-message {
+    background-color: #99cc66;
+    color: #ffffff;
+  }
+  
